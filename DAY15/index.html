@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors...</title>
+    <style>
+        /* element selector */
+        div{
+            background-color: aquamarine;
+        }
+        .red{
+            background-color: brown;
+        }
+        /* id selector */
+        #head{
+            background-color: green;
+            color: white;
+        }
+        /* Child Selector */
+        article>h1>p{
+            background-color: blue;
+            color: whitesmoke;
+        }
+        *{
+            margin: 0;
+            padding: 5;
+        }
+        /* psuedo selectors */
+        a :visited{
+            color: yellow;
+        }
+        a:link{
+            color: blueviolet;
+        }
+        a:hover{
+            background-color: blue;
+        }
+        h2:first-child{
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="one">Lorem ipsum dolor sit amet, 
+        consectetur adipisicing elit. Obcaecati tenetur 
+        ea quaerat non, ipsa ipsam et, sapiente p
+        orro fugit sit tempora ad delectus.</div>
+    <!-- class selector -->
+    <div class="red">Lorem ipsum dolor sit.</div>
+    <div >Lorem ipsum dolor sit amet consectetur.</div>
+    <h2 id="head"><p>Lorem ipsum dolor sit.</p></h2>
+    <article>
+    <h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur.
+        </p>
+    </article>
+    </h1>
+    <a href="https://www.link.com">hi google</a>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+    <style>
+        /* //Class selector */
+        .red{
+            background-color: brown;
+           
+        }
+        /* //ID- selector */
+        #green{
+            background-color: blue;
+        }
+        /* child selector */
+        div > p{
+color: red;
+        }
+        /* descendant selector */
+        div p{
+            color: green;
+        }
+        /* universal selector */
+        *{
+            color: yellow;
+            margin: 0;
+            padding: 0;
+        }
+        /* group selector */
+        h1,h2,h3{
+            color: blue;
+        }
+        /* attribute selector */
+        a[href="https://www.google.com/"]{
+            color: red;
+        }
+        /* pseudo class selector */
+        a:hover{
+            color: green;
+            background-color: yellow;
+        }
+        #kkk:visited{
+            color: red;
+           
+        }
+        a:active{
+            color: blue;
+        }
+        /* pseudo element selector */
+        p::first-line{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">
+        i m a div
+    </div>
+    <div id="green">
+        Lorem ipsum dolor sit amet consectetur.
+        <p>Lorem ipsum dolor sit amet.</p><br>
+       
+
+    </div>
+    <a  id="kkk"href=
+    "https://www.google.com">linkkkkkkkkkkk</a>
+    <a href=
+    "https://www.google.com">linkkkkkkkkkkk</a>
+
+</body>
+</html>
